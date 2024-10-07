@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63e9c68d53235f4788fbe19a6b96f2d, type: 3}
+  m_Name: ObjectDataSO
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: House
+    <ID>k__BackingField: 0
+    buildingType: 1
+    description: 
+    Size: {x: 4, y: 4}
+    Prefab: {fileID: 5978442559355577830, guid: e5fa3a00341211c429d79f2583a6002f, type: 3}
+    HealthData:
+      <MaxHealth>k__BackingField: 100
+      <AutoRegenerate>k__BackingField: 0
+      <RegenerationRate>k__BackingField: 0
+    Image: {fileID: 21300000, guid: 8476348e8a9880c4889688f018b90d59, type: 3}
+    PoolObjectType: 3
+    requirements: []
+    benefits: []
+    <buildDependency>k__BackingField: []
+  - <Name>k__BackingField: Soldier Unit
+    <ID>k__BackingField: 1
+    buildingType: 2
+    description: 
+    Size: {x: 2, y: 2}
+    Prefab: {fileID: 1060641206214381396, guid: 0ec7498519155ae4f9ff90edc8b8a3e3, type: 3}
+    HealthData:
+      <MaxHealth>k__BackingField: 100
+      <AutoRegenerate>k__BackingField: 0
+      <RegenerationRate>k__BackingField: 0
+    Image: {fileID: 21300000, guid: dfe5eb4bbf9e968439db9532fd70806f, type: 3}
+    PoolObjectType: 5
+    requirements: []
+    benefits: []
+    <buildDependency>k__BackingField:
+    - buildingType: 2
+      productionName: Soldier_1
+    - buildingType: 2
+      productionName: Soldier_2
+    - buildingType: 2
+      productionName: Soldier_3
+  - <Name>k__BackingField: Power Plant
+    <ID>k__BackingField: 2
+    buildingType: 3
+    description: 
+    Size: {x: 2, y: 3}
+    Prefab: {fileID: 7560326614398789736, guid: 55656788be4dbf2459507e3dc17ba3ae, type: 3}
+    HealthData:
+      <MaxHealth>k__BackingField: 50
+      <AutoRegenerate>k__BackingField: 0
+      <RegenerationRate>k__BackingField: 0
+    Image: {fileID: 21300000, guid: 592181ab93a762d44909f67b00f4f72c, type: 3}
+    PoolObjectType: 4
+    requirements: []
+    benefits: []
+    <buildDependency>k__BackingField: []
